@@ -95,19 +95,13 @@ body {
 .aside-container .green-head .img {
   width: 130px;
 }
-.aside-container .aside__block {
-  /*
-
-  *****Pour CV PDF*****
-
-  .block_cv {
-      margin: 5px;
-      font-weight: bold;
-  }
-  .cv_link {
-      margin: 5px;
-      font-size: 15px;
-  }*/
+.aside-container .aside__block .block_cv {
+  margin: 5px;
+  font-weight: bold;
+}
+.aside-container .aside__block .cv_link {
+  margin: 5px;
+  font-size: 15px;
 }
 .aside-container .aside__block .block_h2 {
   margin: 20px 0 10px 5px;
