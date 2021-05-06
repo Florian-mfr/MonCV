@@ -55,12 +55,18 @@ body {
   align-items: center;
   margin-top: 10px;
 }
+.section-container .h2_card .card_h3 {
+  margin-bottom: 5px;
+}
+.section-container .h2_card .card_year {
+  white-space: nowrap;
+}
 
 .aside-container {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  max-width: 230px;
+  max-width: 250px;
   margin: 5px;
   box-shadow: 2px 2px 5px grey;
   border-radius: 5px;
@@ -89,6 +95,20 @@ body {
 .aside-container .green-head .img {
   width: 130px;
 }
+.aside-container .aside__block {
+  /*
+
+  *****Pour CV PDF*****
+
+  .block_cv {
+      margin: 5px;
+      font-weight: bold;
+  }
+  .cv_link {
+      margin: 5px;
+      font-size: 15px;
+  }*/
+}
 .aside-container .aside__block .block_h2 {
   margin: 20px 0 10px 5px;
   padding-bottom: 5px;
@@ -98,6 +118,33 @@ body {
 .aside-container .aside__block .block_item {
   margin: 5px;
   word-wrap: break-word;
+  white-space: nowrap;
+}
+.aside-container .aside__block .block_link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.aside-container .aside__block .block_link .link_icon {
+  font-size: 40px;
+  margin: 0 10px;
+}
+.aside-container .aside__block .block_skill {
+  margin: 5px;
+  word-wrap: break-word;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.aside-container .aside__block .block_skill .fa-circle {
+  margin: 0.5px;
+}
+.aside-container .aside__block .block_skill .true {
+  color: #2c9684;
+}
+.aside-container .aside__block .block_skill .false {
+  color: #c2c2c2;
 }
 .aside-container .green-bottom {
   height: 40px;
