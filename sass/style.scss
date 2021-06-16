@@ -25,6 +25,7 @@ body {
 .section-container {
     max-width: 600px;
     margin: 5px;
+    background-color: $white;
     box-shadow: 2px 2px 5px grey;
     border-radius: 5px;
     padding: 30px 10px;
@@ -67,7 +68,7 @@ body {
     margin: 5px;
     box-shadow: 2px 2px 5px grey;
     border-radius: 5px;
-    background-color: rgb(236, 236, 236);
+    background-color: $white;
     overflow: hidden;
     .green-head {
         display: flex;
