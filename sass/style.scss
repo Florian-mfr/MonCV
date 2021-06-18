@@ -85,14 +85,18 @@ body {
             width: 130px;
             height: 130px;
             align-items: center;
-            border: 2px solid #fff;
+            border: 4px solid #fff;
             margin: 10px;
         }
         .img {
             width: 130px;
+            transform: scale(1.3);
         }
     }
     .aside__block {
+        .name {
+            margin: 5px;
+        }
         .block_cv {
             font-size: 18px;
             margin: 5px;
